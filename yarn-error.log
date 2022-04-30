@@ -1,0 +1,36 @@
+Arguments: 
+  D:\nodejs\node.exe D:\yarn\bin\yarn.js remove global ts-node-dev
+
+PATH: 
+  D:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Program Files (x86)\jdk\\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\git\Git\cmd;D:\nodejs\node_modules\npm;D:\yarn\bin\;D:\nodejs\node_modules\node_global;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\Yarn\bin;D:\nodejs\node_modules\node_global\bin;D:\Software\hugo;D:\nodejs\;D:\nodejs\;D:\Software\hugo;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\project\node-interpret\package.json: Unexpected token . in JSON at position 46
+      at JSON.parse (<anonymous>)
+      at D:\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\yarn\lib\cli.js:304:30)
+      at D:\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "node-interpret",
+    "version": 0.0.1",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
